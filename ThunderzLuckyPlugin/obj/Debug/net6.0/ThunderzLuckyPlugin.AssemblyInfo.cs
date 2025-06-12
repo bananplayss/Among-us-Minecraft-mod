@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Mod generated using Reactor Template")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-dev")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-dev+f41c00bd6369a77091fb006b735c9bf581797920")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThunderzLuckyPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThunderzLuckyPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
