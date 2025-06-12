@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\User\\ThunderzLuckyPlugin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\patches\\gamemanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\patches\\gamemanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\gatherresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\gatherresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\handparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\handparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\tools\\itemadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\tools\\itemadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\tools\\gurgeutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\tools\\gurgeutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\endportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\endportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\tools\\errorcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\tools\\errorcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\patches\\modmanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\patches\\modmanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\patches\\endgamemanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\enderpearlability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\patches\\gamemanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\patches\\gamemanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\dynamicsorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\dynamicsorting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\tools\\customrpc_enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\tools\\customrpc_enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\patches\\modmanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|solutionrelative:thunderzluckyplugin\\patches\\modmanagerpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\bananplaysshu.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\inventorysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\buttons\\craftingtablebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\errorcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\errorcodegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\hotbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\hotbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,20 +111,12 @@
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\npcbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\playerspritechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\playerspritechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\thunderzluckyplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\thunderzluckyplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\handparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|solutionrelative:thunderzluckyplugin\\handparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FBC798-BAF5-4EE5-9511-BE6DB0592F99}|ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj|c:\\users\\user\\thunderzluckyplugin\\thunderzluckyplugin\\trident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,6 +159,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GurgeUtils.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\GurgeUtils.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Tools\\GurgeUtils.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\GurgeUtils.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\Tools\\GurgeUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:54:33.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GatherResource.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\GatherResource.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\GatherResource.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\GatherResource.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\GatherResource.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwHQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:34:51.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemAdder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\ItemAdder.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Tools\\ItemAdder.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\ItemAdder.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\Tools\\ItemAdder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:26:13.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "DynamicSorting.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\DynamicSorting.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\DynamicSorting.cs",
@@ -165,14 +216,14 @@
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Patches\\ModManagerPatch.cs",
               "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Patches\\ModManagerPatch.cs",
               "RelativeToolTip": "ThunderzLuckyPlugin\\Patches\\ModManagerPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T15:14:40.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "InventorySystem.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\InventorySystem.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\InventorySystem.cs",
@@ -185,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "EndGameManagerPatch.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Patches\\EndGameManagerPatch.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Patches\\EndGameManagerPatch.cs",
@@ -198,67 +249,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "GameManagerPatch.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Patches\\GameManagerPatch.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Patches\\GameManagerPatch.cs",
               "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Patches\\GameManagerPatch.cs",
               "RelativeToolTip": "ThunderzLuckyPlugin\\Patches\\GameManagerPatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwFUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T14:55:36.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SpeedPotionButton.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T14:47:07.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IntroPatch.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\IntroPatch.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\IntroPatch.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\IntroPatch.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\IntroPatch.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwB4AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T14:31:10.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "InvisibleButton.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T14:23:44.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CraftingInventory.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\CraftingInventory.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\CraftingInventory.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\CraftingInventory.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\CraftingInventory.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T13:56:11.477Z",
               "EditorCaption": ""
             },
             {
@@ -271,7 +270,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomRPC_Enum.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T19:54:30.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "EnderPearlAbility.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlAbility.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\EnderPearlAbility.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlAbility.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\EnderPearlAbility.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAWwKUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:15:37.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnderPearlCickCollider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:17:28.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EndPortal.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EndPortal.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\EndPortal.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EndPortal.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\EndPortal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:29:37.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HandParent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\HandParent.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\HandParent.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\HandParent.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\HandParent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:48:35.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Hand.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Hand.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Hand.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\Hand.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T16:03:59.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CraftingInventory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\CraftingInventory.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\CraftingInventory.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\CraftingInventory.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\CraftingInventory.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwDwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:56:11.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "TNTButton.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\TNTButton.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\TNTButton.cs",
@@ -285,58 +375,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "CustomRPC_Enum.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\Tools\\CustomRPC_Enum.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "Title": "ErrorCodeGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\ErrorCodeGenerator.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Tools\\ErrorCodeGenerator.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Tools\\ErrorCodeGenerator.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\Tools\\ErrorCodeGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T19:54:30.03Z",
+              "WhenOpened": "2025-06-12T14:12:01.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnderPearlAbility.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlAbility.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\EnderPearlAbility.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlAbility.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\EnderPearlAbility.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAWwKUAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "SpeedPotionButton.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\Buttons\\SpeedPotionButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:15:37.641Z",
+              "WhenOpened": "2025-06-12T14:47:07.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnderPearlCickCollider.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\EnderPearlCickCollider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "InvisibleButton.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\Buttons\\InvisibleButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:17:28.728Z",
+              "WhenOpened": "2025-06-12T14:23:44.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EndPortal.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EndPortal.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\EndPortal.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\EndPortal.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\EndPortal.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBQAAABiAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "IntroPatch.cs",
+              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\IntroPatch.cs",
+              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\IntroPatch.cs",
+              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\IntroPatch.cs",
+              "RelativeToolTip": "ThunderzLuckyPlugin\\IntroPatch.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwB4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:29:37.159Z",
+              "WhenOpened": "2025-06-12T14:31:10.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "EscapeButton.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\EscapeButton.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\EscapeButton.cs",
@@ -349,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "EnderPearlButton.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\EnderPearlButton.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\EnderPearlButton.cs",
@@ -362,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "CraftingTableManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\CraftingTableManager.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\CraftingTableManager.cs",
@@ -375,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "CraftingTableButton.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\CraftingTableButton.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\CraftingTableButton.cs",
@@ -388,20 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ErrorCodeGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\ErrorCodeGenerator.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\ErrorCodeGenerator.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\ErrorCodeGenerator.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\ErrorCodeGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T14:12:01.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "NPCBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\NPCBehaviour.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\NPCBehaviour.cs",
@@ -414,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "SaveButton.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Buttons\\SaveButton.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Buttons\\SaveButton.cs",
@@ -427,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "PickupSoundManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\PickupSoundManager.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\PickupSoundManager.cs",
@@ -440,20 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Hand.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Hand.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Hand.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Hand.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\Hand.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAgwHEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:03:59.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "InventoryStorage.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\InventoryStorage.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\InventoryStorage.cs",
@@ -466,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "InventoryItemDatabase.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\InventoryItemDatabase.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\InventoryItemDatabase.cs",
@@ -479,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Hotbar.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Hotbar.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Hotbar.cs",
@@ -492,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "PlayerSpriteChange.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\PlayerSpriteChange.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\PlayerSpriteChange.cs",
@@ -505,20 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HandParent.cs",
-              "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\HandParent.cs",
-              "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\HandParent.cs",
-              "ToolTip": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\HandParent.cs",
-              "RelativeToolTip": "ThunderzLuckyPlugin\\HandParent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T16:48:35.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ThunderzLuckyPlugin.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\ThunderzLuckyPlugin.cs",
@@ -531,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Trident.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\Trident.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\Trident.cs",
@@ -544,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "HotBarItemHolder.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\HotBarItemHolder.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\HotBarItemHolder.cs",
@@ -557,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "PhantomManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\PhantomManager.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\PhantomManager.cs",
@@ -570,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "TNT.cs",
               "DocumentMoniker": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\TNT.cs",
               "RelativeDocumentMoniker": "ThunderzLuckyPlugin\\TNT.cs",
