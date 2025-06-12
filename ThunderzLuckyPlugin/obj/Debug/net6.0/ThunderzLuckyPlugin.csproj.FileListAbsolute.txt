@@ -1,0 +1,11 @@
+C:\Users\User\Downloads\Among Us modding\Debug\net6.0\ThunderzLuckyPlugin.deps.json
+C:\Users\User\Downloads\Among Us modding\Debug\net6.0\ThunderzLuckyPlugin.dll
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\ThunderzLuckyPlugin.csproj.AssemblyReference.cache
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\ThunderzLuckyPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\ThunderzLuckyPlugin.AssemblyInfoInputs.cache
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\ThunderzLuckyPlugin.AssemblyInfo.cs
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\ThunderzLuckyPlugin.csproj.CoreCompileInputs.cache
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\ThunderzLuckyPlugin.dll
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\refint\ThunderzLuckyPlugin.dll
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\ref\ThunderzLuckyPlugin.dll
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\Thunderz.AB9FA192.Up2Date
