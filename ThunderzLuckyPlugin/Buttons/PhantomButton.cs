@@ -1,9 +1,9 @@
-﻿using bananplaysshu;
-using MiraAPI.Hud;
+﻿using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using Reactor.Networking.Attributes;
 using System;
 using System.Runtime.CompilerServices;
+using bananplaysshu.Tools;
 using UnityEngine;
 using static bananplaysshu.ThunderzLuckyPlugin;
 
@@ -11,7 +11,7 @@ namespace bananplaysshu.Buttons {
 
 	[RegisterButton]
 	internal class PhantomButton : CustomActionButton {
-
+		#region Button Properties
 		public static bool canUse = true;
 
 		LoadableAsset<Sprite> buttonSprite = new LoadableResourceAsset("ThunderzLuckyPlugin.Resources.Phantom.png");
@@ -26,38 +26,21 @@ namespace bananplaysshu.Buttons {
 
 		public override LoadableAsset<Sprite> Sprite => buttonSprite;
 
-		public override bool Enabled(RoleBehaviour role) {
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				Button.buttonLabelText.outlineColor = Color.red;
-			}
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				return true;
-			}
-			return false;
-		}
-
 		public override ButtonLocation Location => ButtonLocation.BottomLeft;
 
+		public override bool CanUse() {
+			return canUse;
+		}
+		#endregion
+
+		public override bool Enabled(RoleBehaviour role) {
+			Button.buttonLabelText.outlineColor = role.TeamType == RoleTeamTypes.Impostor ? Color.red : Button.buttonLabelText.outlineColor;
+			return role.TeamType == RoleTeamTypes.Impostor ? true : false;
+		}
+
 		protected override void OnClick() {
-			
-			PlayerControl closestPlayer = null;
-			float distance = 999f;
-			float closestDistance = 0;
-			float maxDistance = 5f;
-			foreach (PlayerControl pc in PlayerControl.AllPlayerControls) {
-				if (pc == PlayerControl.LocalPlayer) continue;
-				if (pc.Data.IsDead) continue;
-				closestDistance = Vector3.Distance(PlayerControl.LocalPlayer.transform.position, pc.transform.position);
-				if (closestDistance < distance) {
-					closestPlayer = pc;
-					distance = closestDistance;
-				}
-			}
-
-			if (closestDistance > maxDistance) return;
+			PlayerControl closestPlayer = ClosestPlayerFinder.FindClosestPlayer(PlayerControl.LocalPlayer);
 			SpawnPhantomRpc(closestPlayer);
-
-
 		}
 
 		[MethodRpc((uint)CustomRPC_Enum.SpawnPhantomRpc)]
@@ -70,8 +53,6 @@ namespace bananplaysshu.Buttons {
 			PhantomManager.Instance.phantom = phantomObj.GetComponent<PhantomBehaviour>();
 		}
 
-		public override bool CanUse() {
-			return canUse;
-		}
+		
 	}
 }

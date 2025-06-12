@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using bananplaysshu.Tools;
+using HarmonyLib;
 using MiraAPI.Utilities.Assets;
 using UnityEngine;
 using static Il2CppSystem.Xml.XmlWellFormedWriter.AttributeValueCache;
@@ -11,7 +12,7 @@ namespace bananplaysshu {
 	internal static class InitializeTree {
 		#region Fields
 
-
+		//refactor
 		//IF YOU'RE LOOKING AT THIS.... I ADDED IT AFTER I DELIVERED THE PROJECT SO I DIDNT CARE MAKING A METHOD
 		public static Vector2 treePos = new Vector2(2.7f, -8.5f);
 		public static Vector2 treePos2 = new Vector2(2.2f, 0.7f);
@@ -44,7 +45,7 @@ namespace bananplaysshu {
 		[HarmonyPostfix]
 		public static void InitializeTreeObject() {
 			LateTask.New(() => {
-
+				//refactor
 				//IF YOU'RE LOOKING AT THIS.... I ADDED IT AFTER I DELIVERED THE PROJECT SO I DIDNT CARE MAKING A METHOD
 
 				GameObject newTree = new GameObject();

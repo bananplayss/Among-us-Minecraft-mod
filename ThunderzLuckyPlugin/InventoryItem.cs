@@ -13,8 +13,6 @@ namespace bananplaysshu {
 			this.maxStack = maxStack;
 			this.itemType = itemType;
 		}
-
-
 	}
 
 	public enum InventoryItemTypes{

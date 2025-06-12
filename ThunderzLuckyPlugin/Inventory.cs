@@ -34,16 +34,5 @@ namespace bananplaysshu {
 			inventoryContainer.SetActive(true);
 		}
 	}
-
-	[HarmonyPatch(typeof(HudManager),nameof(HudManager.Update))]
-	public static class HudManPatch {
-		public static void Postfix(HudManager __instance) {
-			__instance.SabotageButton.gameObject.SetActive(false);
-			__instance.ReportButton.gameObject.SetActive(false);
-			__instance.KillButton.GetComponent<SpriteRenderer>().sprite = GurgeUtils.LoadSprite("ThunderzLuckyPlugin.Resources.KillButton.png", 100);
-			__instance.ImpostorVentButton.gameObject.SetActive(false);
-			__instance.KillOverlay.gameObject.SetActive(false);
-		}
-	}
 }
 

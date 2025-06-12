@@ -1,4 +1,5 @@
-﻿using Il2CppInterop.Runtime.Attributes;
+﻿using bananplaysshu.Tools;
+using Il2CppInterop.Runtime.Attributes;
 using Il2CppSystem;
 using Reactor.Networking.Attributes;
 using Reactor.Utilities.Attributes;
@@ -35,6 +36,7 @@ namespace bananplaysshu {
 			if (currentItem == null) return;
 			if (Hotbar.Instance.CurrentHotbarItemHolder() != this) return;
 			if (Input.GetMouseButtonDown(1)) {
+				//Refactor
 				if(currentItem.name == InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Trident).name){
 					InstantiateTridentRpc(PlayerControl.LocalPlayer);
 					Hotbar.Instance.RefreshHotbar();

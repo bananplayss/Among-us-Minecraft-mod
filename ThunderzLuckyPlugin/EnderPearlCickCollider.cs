@@ -14,6 +14,7 @@ namespace bananplaysshu {
 		public Vector3 pos;
 
 		void OnMouseDown() {
+			//Refactor
 			PlayerControl.LocalPlayer.transform.position = pos;
 			EnderPearlAbility.Instance.Hide();
 			InventoryStorage.Instance.RemoveInventoryItemFromStorage(InventoryItemDatabase.Instance.ReturnItemByEnumName(

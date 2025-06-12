@@ -27,7 +27,6 @@ namespace bananplaysshu {
 				
 				gameObject.SetActive(false);
 			}
-			
 		}
 
 		public void SetItem(int index) {
@@ -52,6 +51,4 @@ namespace bananplaysshu {
 			}
 		}
 	}
-
-	
 }

@@ -115,49 +115,5 @@ namespace bananplaysshu {
 		}
 	}
 	#endregion
-
-	
-	[HarmonyPatch(typeof(GameManager),nameof(GameManager.StartGame))]
-	public static class ResourceSpawnPatch {
-		[HarmonyPriority(Priority.Normal)]
-		public static void Postfix() {
-			#region Patch
-			//Stone pack
-			GameObject stonePack = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.stonePack, new Vector3(9.2f, -12.9f, 1f), Quaternion.identity);
-			InventoryItem cobblestone = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Cobblestone);
-			stonePack.GetComponent<GatherResource>().SetGatherableResource(cobblestone);
-			stonePack.transform.localScale *= .5f;
-			stonePack.GetComponent<DynamicSorting>().SetOffset(.8f);
-
-			GameObject stonePack2 = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.stonePack, new Vector3(-13.4f, -7f, 0.0f), Quaternion.identity);
-			stonePack2.GetComponent<GatherResource>().SetGatherableResource(cobblestone);
-			stonePack2.transform.localScale *= .5f;
-			stonePack2.GetComponent<DynamicSorting>().SetOffset(.8f);
-
-			//Iron pack
-			GameObject ironPack = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.ironPack, new Vector3(-22.1f, -8.1f, 1f), Quaternion.identity);
-			ironPack.GetComponent<GatherResource>().SetGatherableResource(InventoryItemDatabase.Instance.ReturnItemByEnumName(
-				InventoryItemDatabase.InventoryItemsEnum.Iron));
-			ironPack.transform.localScale *= .6f;
-			ironPack.GetComponent<DynamicSorting>().SetOffset(.4f);
-
-			GameObject ironPack2 = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.ironPack, new Vector3(3f, -16f, 0.0f), Quaternion.identity);
-			ironPack2.GetComponent<GatherResource>().SetGatherableResource(InventoryItemDatabase.Instance.ReturnItemByEnumName(
-				InventoryItemDatabase.InventoryItemsEnum.Iron));
-			ironPack2.transform.localScale *= .6f;
-			ironPack2.GetComponent<DynamicSorting>().SetOffset(.4f);
-
-
-
-			//Iron pack
-			GameObject lavaPool = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.lavaPool, new Vector3(-1.5f, -16.7f, 1f), Quaternion.identity);
-			lavaPool.GetComponent<GatherResource>().SetGatherableResource(InventoryItemDatabase.Instance.ReturnItemByEnumName(
-				InventoryItemDatabase.InventoryItemsEnum.BucketOfLava));
-			lavaPool.GetComponent<GatherResource>().SetRequiredItem(
-				InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Bucket));
-			lavaPool.GetComponent<DynamicSorting>().SetToLavaPool();
-			#endregion
-		}
-	}
 }
 

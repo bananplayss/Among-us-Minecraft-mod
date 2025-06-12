@@ -10,7 +10,7 @@ namespace bananplaysshu.Buttons {
 
 	[RegisterButton]
 	internal class SaveButton : CustomActionButton {
-
+		#region Button Properties
 		public static bool canUse = false;
 
 		LoadableAsset<Sprite> buttonSprite = new LoadableResourceAsset("ThunderzLuckyPlugin.Resources.SaveButton.png");
@@ -25,18 +25,16 @@ namespace bananplaysshu.Buttons {
 
 		public override LoadableAsset<Sprite> Sprite => buttonSprite;
 
-		public override bool Enabled(RoleBehaviour role) {
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				Button.buttonLabelText.outlineColor = Color.red;
-			}
-			if (role.TeamType != RoleTeamTypes.Impostor) {
-				return true;
-				
-			}
-			return false;
-		}
-
 		public override ButtonLocation Location => ButtonLocation.BottomRight;
+
+		public override bool CanUse() {
+			return canUse;
+		}
+		#endregion
+
+		public override bool Enabled(RoleBehaviour role) {
+			return role.TeamType == RoleTeamTypes.Impostor ? false : true;
+		}
 
 		protected override void OnClick() {
 			PhantomBehaviour p = PhantomManager.Instance.ReturnPhantom();
@@ -44,8 +42,6 @@ namespace bananplaysshu.Buttons {
 			
 		}
 
-		public override bool CanUse() {
-			return canUse;
-		}
+		
 	}
 }

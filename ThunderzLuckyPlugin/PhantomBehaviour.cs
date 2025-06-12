@@ -1,4 +1,5 @@
-﻿using MiraAPI.Roles;
+﻿using bananplaysshu.Tools;
+using MiraAPI.Roles;
 using Reactor.Networking.Attributes;
 using Reactor.Utilities.Attributes;
 using System;
@@ -67,11 +68,7 @@ namespace bananplaysshu {
 			} else { //dies
 					 //Rpc this 
 				CustomRPC.DeathRpc(saviour);
-				
 			}
-
 		}
-
-		
 	}
 }

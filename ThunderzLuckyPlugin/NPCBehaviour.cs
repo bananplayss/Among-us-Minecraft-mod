@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 
+//refactor
 namespace bananplaysshu {
 	[RegisterInIl2Cpp]
 	public class NPCBehaviour : MonoBehaviour {

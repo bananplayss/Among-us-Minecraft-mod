@@ -1,4 +1,4 @@
-﻿using bananplaysshu;
+﻿using bananplaysshu.Tools;
 using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using System;
@@ -10,6 +10,7 @@ namespace bananplaysshu.Buttons {
 
 	[RegisterButton]
 	internal class CraftingTableButton : CustomActionButton {
+		#region Button Properties
 
 		public static bool canUse = false;
 
@@ -25,6 +26,11 @@ namespace bananplaysshu.Buttons {
 
 		public override LoadableAsset<Sprite> Sprite => buttonSprite;
 
+		public override bool CanUse() {
+			return canUse;
+		}
+		#endregion
+
 		public override bool Enabled(RoleBehaviour role) {
 
 			if(role.TeamType== RoleTeamTypes.Impostor) {
@@ -37,28 +43,15 @@ namespace bananplaysshu.Buttons {
 		public override ButtonLocation Location => ButtonLocation.BottomLeft;
 
 		protected override void OnClick() {
-			if (CraftingInventory.Instance == null || Inventory.Instance == null)
-				Debug.LogError("CraftingInventory Instance is null, this is GAME BREAKING");
-			else {
-				if (!CraftingInventory.Instance.gameObject.activeSelf) {
-					CraftingInventory.Instance.Show();
-					Hotbar.Instance.Hide();
-					KillAnimation.SetMovement(PlayerControl.LocalPlayer, false);
-				}
-				else {
-					CraftingInventory.Instance.Hide();
-					Hotbar.Instance.Show();
-					KillAnimation.SetMovement(PlayerControl.LocalPlayer,true);
-				}
+			if (CraftingInventory.Instance != null || Inventory.Instance != null) {
+
+				bool active = CraftingInventory.Instance.gameObject.activeSelf;
+				CraftingInventory.Instance.SetActive(!active);
+				Hotbar.Instance.SetActive(active);
+				KillAnimation.SetMovement(PlayerControl.LocalPlayer, active);
+			} else {
+				ErrorCodeGenerator.PrintNewErrorMessage("CraftingTableButton");
 			}
 		}
-
-		
-
-		public override bool CanUse() {
-			return canUse;
-		}
-
-		
 	}
 }

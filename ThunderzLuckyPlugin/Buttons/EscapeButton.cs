@@ -1,16 +1,16 @@
-﻿using bananplaysshu;
+﻿using bananplaysshu.Tools;
 using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using Reactor.Networking.Attributes;
 using System;
 using UnityEngine;
-using static bananplaysshu.ThunderzLuckyPlugin;
 
 namespace bananplaysshu.Buttons {
 
 	[RegisterButton]
 	internal class EscapeButton : CustomActionButton {
 
+		#region Button Properties
 		public static bool canUse = true;
 
 		LoadableAsset<Sprite> buttonSprite = new LoadableResourceAsset("ThunderzLuckyPlugin.Resources.EscapeButton.png");
@@ -27,26 +27,23 @@ namespace bananplaysshu.Buttons {
 
 		public static int escapists = 0;
 
-		public override bool Enabled(RoleBehaviour role) {
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				return false;
-			}
-			return true;
+		public override bool CanUse() {
+			return canUse;
+		}
+		#endregion
 
-			
+		public override bool Enabled(RoleBehaviour role) {
+			return role.TeamType == RoleTeamTypes.Impostor ? false : true;
 		}
 
 		public override ButtonLocation Location => ButtonLocation.BottomRight;
 
 		protected override void OnClick() {
-			CustomRPC.Escape(PlayerControl.LocalPlayer,escapists);
-			PlayerControl.LocalPlayer.RpcSetRole(AmongUs.GameOptions.RoleTypes.CrewmateGhost);
-			PlayerControl.LocalPlayer.Data.IsDead = true;
-		}
+			PlayerControl lp = PlayerControl.LocalPlayer;
 
-
-		public override bool CanUse() {
-			return canUse;
+			CustomRPC.Escape(lp,escapists);
+			lp.RpcSetRole(AmongUs.GameOptions.RoleTypes.CrewmateGhost);
+			lp.Data.IsDead = true;
 		}
 
 		public override void SetActive(bool visible, RoleBehaviour role) {

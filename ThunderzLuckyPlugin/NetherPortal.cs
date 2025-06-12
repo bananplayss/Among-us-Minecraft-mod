@@ -19,6 +19,7 @@ namespace bananplaysshu {
 
 		public static float reourcePosY;
 
+		//refactor
 		private static float playerPosY = 0;
 		private static float ySubstractFromResourcePos = .75f;
 		private static float checkInputCounter = .25f;

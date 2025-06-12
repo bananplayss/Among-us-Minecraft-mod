@@ -7,12 +7,12 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.XR;
 
 namespace bananplaysshu {
 	[RegisterInIl2Cpp]
 	public class Hotbar : MonoBehaviour {
 		public Hotbar(IntPtr ptr) : base(ptr) { }
+		#region Fields
 
 		[HideFromIl2Cpp]
 		public static Hotbar Instance { get; private set; }
@@ -31,6 +31,7 @@ namespace bananplaysshu {
 		public GameObject container { get; set; }
 
 		private GameObject hotbarSpriteHolderGo;
+		#endregion
 
 		private int currentSelectorPosition = 0;
 		private float prevScroll = 0;
@@ -48,6 +49,10 @@ namespace bananplaysshu {
 
 		public HotBarItemHolder CurrentHotbarItemHolder() {
 			return hotbarItems[currentSelectorPosition];
+		}
+
+		public void SetActive(bool active) {
+			container.SetActive(active);
 		}
 
 		public void Damage(int damage) {
@@ -130,6 +135,7 @@ namespace bananplaysshu {
 
 		public void UpdateSelectorPosition(bool isForward) {
 			Vector3 pos = new Vector3(.8f, 0, 0);
+
 			if (isForward) {
 				selector.localPosition += pos;
 			} else {
@@ -150,37 +156,18 @@ namespace bananplaysshu {
 
 			if (Hand.Instance != null) {
 				InventoryItem item = hotbarItems[currentSelectorPosition].currentItem;
-				if (item != null) {
-					Hand.Instance.UpdateSprite(item.sprite);
-
-				} else {
-					Hand.Instance.UpdateSprite(null);
-				}
+				Sprite sprite = item != null ? item.sprite : null;
+				Hand.Instance.UpdateSprite(sprite);
 				
 			}
 		}
 
-		public void Show() {
+		private void Show() {
 			container.SetActive(true);
 		}
 
-		public void Hide() {
+		private void Hide() {
 			container.SetActive(false);
-		}
-	}
-
-	[HarmonyPatch(typeof(GameManager),nameof(GameManager.StartGame))]
-	public static class InitializeHotbar {
-		public static void Postfix() {
-			GameObject hotbarGO = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.hotbar);
-			Hotbar hotbar = hotbarGO.GetComponent<Hotbar>();
-
-			hotbarGO.transform.localScale *= .5f;
-			hotbarGO.transform.parent = HudManager.Instance.transform;
-			hotbarGO.transform.localPosition = new Vector3(0.6f, -2.6f, 10.0f);
-			
-
-			hotbarGO.layer = LayerMask.NameToLayer("UI");
 		}
 	}
 }

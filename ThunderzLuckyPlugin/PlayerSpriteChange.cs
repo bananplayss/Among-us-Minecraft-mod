@@ -6,6 +6,7 @@ using Reactor.Networking.Attributes;
 using UnityEngine;
 
 namespace bananplaysshu {
+	//refactor
 	[HarmonyPatch(typeof(PlayerBodySprite), nameof(PlayerBodySprite.SetFlipX))]
 
 
@@ -73,14 +74,6 @@ namespace bananplaysshu {
 				} 
 
 			}
-		}
-	}
-
-
-	[HarmonyPatch(typeof(SpriteAnimNodes),nameof(SpriteAnimNodes.GetAngle))]
-	public static class SpriteAnimNodesPatch {
-		public static void Postfix(SpriteAnimNodes __instance) {
-			__instance.m_spriteRenderer.sortingOrder = 1;
 		}
 	}
 }

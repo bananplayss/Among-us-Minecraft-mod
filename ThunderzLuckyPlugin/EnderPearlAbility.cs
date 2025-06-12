@@ -18,7 +18,7 @@ namespace bananplaysshu {
 		public bool usingPearl;
 
 
-		//IF YOU'RE LOOKING AT THIS.... I ADDED IT AFTER I DELIVERED THE PROJECT SO I DIDNT CARE MAKING A METHOD
+		//Bunch of data I could've handled better
 		private Vector3[] allEnderPearlColliderTargetPos = {
 			new Vector3(-3.5f, 5.8f, 0.0f),
 			new Vector3(-1.7f, 5.8f, 0.0f),
@@ -152,22 +152,19 @@ namespace bananplaysshu {
 		}
 
 		private void Start() {
+			Transform amongUsMap = transform.Find("AmongUsMap");
+			Transform colliders = transform.Find("AmongUsMap").Find("Colliders");
+			Transform container = transform.Find("AmongUsMap").Find("Colliders").Find("Container");
 
-			transform.Find("AmongUsMap").gameObject.layer = LayerMask.NameToLayer("UI");
-			transform.Find("AmongUsMap").Find("Colliders").gameObject.layer = LayerMask.NameToLayer("UI");
-			transform.Find("AmongUsMap").Find("Colliders").Find("Container").gameObject.layer = LayerMask.NameToLayer("UI");
+			amongUsMap.gameObject.layer = LayerMask.NameToLayer("UI");
+			colliders.gameObject.layer = LayerMask.NameToLayer("UI");
+			container.gameObject.layer = LayerMask.NameToLayer("UI");
 
-			for (int i = 0; i < transform.Find("AmongUsMap").Find("Colliders").Find("Container").childCount; i++) {
-					transform.Find("AmongUsMap").Find("Colliders").Find("Container").
-					GetChild(i).gameObject.layer = LayerMask.NameToLayer("UI");
-				transform.Find("AmongUsMap").Find("Colliders").Find("Container").
-				GetChild(i).GetComponent<SpriteRenderer>().sortingOrder = 10;
-
-				transform.transform.Find("AmongUsMap").Find("Colliders").Find("Container").
-					GetChild(i).GetComponent<EnderPearlClickCollider>().pos = allEnderPearlColliderTargetPos[i];
-
+			for (int i = 0; i < container.childCount; i++) {
+				container.GetChild(i).gameObject.layer = LayerMask.NameToLayer("UI");
+				container.GetChild(i).GetComponent<SpriteRenderer>().sortingOrder = 10;
+				container.GetChild(i).GetComponent<EnderPearlClickCollider>().pos = allEnderPearlColliderTargetPos[i];
 			}
-			
 		}
 
 		public void Show() {
@@ -178,26 +175,6 @@ namespace bananplaysshu {
 		public void Hide() {
 			transform.GetChild(0).gameObject.SetActive(false);
 			usingPearl = false;
-		}
-	}
-	[HarmonyPatch(typeof(GameManager),nameof(GameManager.StartGame))]
-	public static class EnderPearlMapPatch {
-		public static void Postfix() {
-			GameObject enderPearlMap = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.enderPearlMap);
-			EnderPearlAbility ab  = enderPearlMap.GetComponent<EnderPearlAbility>();
-
-			enderPearlMap.transform.parent = HudManager.Instance.transform;
-			enderPearlMap.transform.localScale *= .6f;
-			enderPearlMap.transform.position += new Vector3(-1.5f,.2f,-100);
-
-			enderPearlMap.layer = LayerMask.NameToLayer("UI");
-
-
-			GameObject craftinginventoryGO = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.craftingInventory);
-			CraftingInventory craftingInventory = craftinginventoryGO.GetComponent<CraftingInventory>();
-
-			ab.Hide();
-
 		}
 	}
 }

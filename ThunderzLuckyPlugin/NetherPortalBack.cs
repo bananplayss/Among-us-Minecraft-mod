@@ -30,7 +30,6 @@ namespace bananplaysshu {
 				foreach (PlayerBodySprite sprite in PlayerControl.LocalPlayer.cosmetics.bodySprites) {
 					sprite.BodySprite.rendererPriority = 1;
 				}
-
 			}
 		}
 	}

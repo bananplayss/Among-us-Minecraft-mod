@@ -22,6 +22,7 @@ namespace bananplaysshu {
 		public InventoryItemDatabase(IntPtr ptr) : base(ptr) { }
 
 		public enum InventoryItemsEnum {
+			//refactor
 			None,
 			Wood,
 			WoodenPlanks,
@@ -74,6 +75,7 @@ namespace bananplaysshu {
 	public static class InventoryItemPatch {
 		[HarmonyPriority(Priority.First)]
 		public static void Postfix() {
+			//refactor
 			#region Initialize Database
 			GameObject dbGo = new GameObject("InventoryItemDatabase");
 			dbGo.AddComponent<InventoryItemDatabase>();

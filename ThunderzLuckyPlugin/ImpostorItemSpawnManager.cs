@@ -34,6 +34,7 @@ namespace bananplaysshu {
 			impostorItemInventoryItems = new InventoryItem[10];
 			impostorItemInventoryItemsSpawns = new Vector3[10];
 
+			//refactor
 			#region Bad code, no time left 
 			#region are you sure?
 			#region please dont

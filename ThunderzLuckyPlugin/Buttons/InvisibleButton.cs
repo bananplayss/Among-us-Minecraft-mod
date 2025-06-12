@@ -1,17 +1,15 @@
-﻿using AmongUs.Data.Player;
-using bananplaysshu;
+﻿using bananplaysshu.Tools;
 using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
 using Reactor.Networking.Attributes;
 using System;
 using UnityEngine;
-using static bananplaysshu.ThunderzLuckyPlugin;
 
 namespace bananplaysshu.Buttons {
 
 	[RegisterButton]
 	internal class InvisibleButton : CustomActionButton {
-
+		#region Button Properties
 		public static bool canUse = true;
 
 		LoadableAsset<Sprite> buttonSprite = new LoadableResourceAsset("ThunderzLuckyPlugin.Resources.InvisibleButton.png");
@@ -26,19 +24,21 @@ namespace bananplaysshu.Buttons {
 
 		public static bool isInvisible = false;
 
+		public override ButtonLocation Location => ButtonLocation.BottomLeft;
+
 		public override LoadableAsset<Sprite> Sprite => buttonSprite;
 
+		public override bool CanUse() {
+			return canUse;
+		}
+		#endregion
+
 		public override bool Enabled(RoleBehaviour role) {
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				Button.buttonLabelText.outlineColor = Color.red;
-			}
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				return true;
-			}
-			return false;
+			Button.buttonLabelText.outlineColor = role.TeamType == RoleTeamTypes.Impostor ? Color.red : Button.buttonLabelText.outlineColor;
+			return role.TeamType == RoleTeamTypes.Impostor ? true : false;
 		}
 
-		public override ButtonLocation Location => ButtonLocation.BottomLeft;
+		
 
 		protected override void OnClick() {
 			isInvisible = !isInvisible;
@@ -59,8 +59,6 @@ namespace bananplaysshu.Buttons {
 			pc.cosmetics.SetPhantomRoleAlpha(alpha);
 		}
 
-		public override bool CanUse() {
-			return canUse;
-		}
+		
 	}
 }

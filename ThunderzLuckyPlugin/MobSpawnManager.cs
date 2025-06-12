@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using bananplaysshu.Tools;
+using HarmonyLib;
 using Il2CppInterop.Runtime.Attributes;
 using Reactor.Utilities.Attributes;
 using Steamworks;
@@ -32,6 +33,7 @@ namespace bananplaysshu {
 		}
 
 		private void Start() {
+			//refactor
 			endermen = new Vector2[3];
 			blazes = new Vector2[3];
 			enddragon = new Vector2(0, 0);
@@ -101,13 +103,6 @@ namespace bananplaysshu {
 
 			npcs.Add(nPCBehaviour);
 			nPCBehaviour.mobType = MobsEnum.EnderDragon;
-		}
-
-		[HarmonyPatch(typeof(GameManager), nameof(GameManager.StartGame))]
-		public static class InitializeMobSpawnManager {
-			public static void Postfix() {
-				GameObject mobSpawnManagerObj = GameObject.Instantiate(ThunderzLuckyPlugin.Instance.mobSpawnManager);
-			}
 		}
 	}
 }

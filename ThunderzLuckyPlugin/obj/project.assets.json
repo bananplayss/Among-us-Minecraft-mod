@@ -4792,9 +4792,9 @@
   "project": {
     "version": "1.0.0-dev",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj",
-      "projectName": "ThunderzLuckyPlugin",
-      "projectPath": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin.csproj",
+      "projectUniqueName": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\bananplaysshu.csproj",
+      "projectName": "bananplaysshu",
+      "projectPath": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\bananplaysshu.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\ThunderzLuckyPlugin\\ThunderzLuckyPlugin\\obj\\",
       "projectStyle": "PackageReference",

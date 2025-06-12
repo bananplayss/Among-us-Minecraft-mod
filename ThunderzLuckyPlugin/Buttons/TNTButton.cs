@@ -9,7 +9,7 @@ namespace bananplaysshu.Buttons {
 
 	[RegisterButton]
 	internal class TNTBuutton : CustomActionButton {
-
+		#region Button Properties
 		public static bool canUse = false;
 
 		LoadableAsset<Sprite> buttonSprite = new LoadableResourceAsset("ThunderzLuckyPlugin.Resources.TNTButton.png");
@@ -24,20 +24,24 @@ namespace bananplaysshu.Buttons {
 
 		public override LoadableAsset<Sprite> Sprite => buttonSprite;
 
+		public override ButtonLocation Location => ButtonLocation.BottomLeft;
+
+		public override bool CanUse() {
+			return canUse;
+		}
+		#endregion
+
 		public override bool Enabled(RoleBehaviour role) {
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				Button.buttonLabelText.outlineColor = Color.red;
-			}
-			if (role.TeamType == RoleTeamTypes.Impostor) {
-				return true;
-			}
-			return false;
+			Button.buttonLabelText.outlineColor = role.TeamType == RoleTeamTypes.Impostor ? Color.red : Button.buttonLabelText.outlineColor;
+			return role.TeamType == RoleTeamTypes.Impostor ? true : false;
 		}
 
-		public override ButtonLocation Location => ButtonLocation.BottomLeft;
+		
 
 		protected override void OnClick() {
 			int refInt = 0;
+
+			//refactor
 			if (InventoryStorage.Instance.HasInventoryItemInventory(InventoryItemDatabase.Instance.ReturnItemByEnumName(
 				InventoryItemDatabase.InventoryItemsEnum.TNT), ref refInt)) {
 				InventoryStorage.Instance.RemoveInventoryItemFromStorage(InventoryItemDatabase.Instance.ReturnItemByEnumName(
@@ -49,8 +53,6 @@ namespace bananplaysshu.Buttons {
 			}
 		}
 
-		public override bool CanUse() {
-			return canUse;
-		}
+		
 	}
 }

@@ -10,6 +10,7 @@ namespace bananplaysshu {
 	[RegisterInIl2Cpp]
 	internal class CraftingTableManager : MonoBehaviour{
 
+		#region Fields
 		[HideFromIl2Cpp]
 		public static CraftingTableManager Instance { get; private set; }
 
@@ -22,6 +23,7 @@ namespace bananplaysshu {
 		public OutputSlot outputSlot { get; set; }
 
 		public static CraftingTableManager currentTable;
+		#endregion
 
 		private void Awake() {
 			if (CraftingTableManager.Instance != null) return;
@@ -33,9 +35,6 @@ namespace bananplaysshu {
 		}
 		
 		private void Update() {
-			
-
-
 			if (Vector3.Distance(transform.position, PlayerControl.LocalPlayer.transform.position) <= 2f) {
 				CraftingTableButton.canUse = true;
 				currentTable = this;
@@ -71,51 +70,11 @@ namespace bananplaysshu {
 					return false;
 				}
 			}
-
 			return true;
 		}
 	}
 
-	[HarmonyPatch(typeof(GameManager),nameof(GameManager.StartGame))]
-	public static class InstantiateWorkbench {
-
-		//IF YOU'RE LOOKING AT THIS.... I ADDED IT AFTER I DELIVERED THE PROJECT SO I DIDNT CARE MAKING A METHOD
-		public static void Postfix() {
-			GameObject workbench = new GameObject("Workbench");
-			SpriteRenderer sr = workbench.AddComponent<SpriteRenderer>();
-			sr.sprite = GurgeUtils.LoadSprite("ThunderzLuckyPlugin.Resources.CraftingTable.png",180);
-			workbench.transform.position = new Vector3(6.2f, -9.3f, 0f);
-			workbench.AddComponent<CraftingTableManager>();
-
-
-			GameObject workbench2 = new GameObject("Workbench2");
-			SpriteRenderer sr2 = workbench2.AddComponent<SpriteRenderer>();
-			sr2.sprite = GurgeUtils.LoadSprite("ThunderzLuckyPlugin.Resources.CraftingTable.png", 180);
-			workbench2.transform.position = new Vector3(16.9f, -5.8f);
-			workbench2.AddComponent<CraftingTableManager>();
-
-			GameObject workbench3 = new GameObject("Workbench");
-			SpriteRenderer sr3 = workbench3.AddComponent<SpriteRenderer>();
-			sr3.sprite = GurgeUtils.LoadSprite("ThunderzLuckyPlugin.Resources.CraftingTable.png", 180);
-			workbench3.transform.position = new Vector3(4.6f, 3.0f, 0.0f);
-			workbench3.AddComponent<CraftingTableManager>();
-
-			GameObject workbench4 = new GameObject("Workbench");
-			SpriteRenderer sr4 = workbench4.AddComponent<SpriteRenderer>();
-			sr4.sprite = GurgeUtils.LoadSprite("ThunderzLuckyPlugin.Resources.CraftingTable.png", 180);
-			workbench4.transform.position = new Vector3(-5.9f, 3.9f, 0.0f);
-			workbench4.AddComponent<CraftingTableManager>();
-
-			GameObject workbench5 = new GameObject("Workbench");
-			SpriteRenderer sr5 = workbench5.AddComponent<SpriteRenderer>();
-			sr5.sprite = GurgeUtils.LoadSprite("ThunderzLuckyPlugin.Resources.CraftingTable.png", 180);
-			workbench5.transform.position = new Vector3(6.2f, -3.2f, 0.0f);
-			workbench5.AddComponent<CraftingTableManager>();
-
-
-		}
-	}
-
+	#region Saving methods
 	[HarmonyPatch(typeof(AmongUs.Data.Player.PlayerData), nameof(AmongUs.Data.Player.PlayerData.FileName), MethodType.Getter)]
 	[HarmonyPatch(typeof(AmongUs.Data.Settings.SettingsData), nameof(AmongUs.Data.Settings.SettingsData.FileName), MethodType.Getter)]
 	public static class SaveManagerPatch {
@@ -129,4 +88,5 @@ namespace bananplaysshu {
 			__result += "_dexmods";
 		}
 	}
+	#endregion
 }

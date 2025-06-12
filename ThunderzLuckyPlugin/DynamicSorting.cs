@@ -22,7 +22,6 @@ namespace bananplaysshu {
 			foreach (SpriteRenderer sr in GetComponentsInChildren<SpriteRenderer>()) {
 				srs.Add(sr);
 			}
-
 		}
 
 		public void SetOffset(float offset) {
@@ -47,6 +46,7 @@ namespace bananplaysshu {
 		}
 		#endregion
 
+		#region Sorting Methods
 		private void MoveSortOrderUp() {
 			foreach(SpriteRenderer sr in srs) {
 				sr.sortingOrder = 10;
@@ -58,6 +58,7 @@ namespace bananplaysshu {
 				sr.sortingOrder = 0;
 			}
 		}
+		#endregion
 	}
 
 }
