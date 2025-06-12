@@ -38,18 +38,23 @@ namespace bananplaysshu.Buttons {
 
 		protected override void OnClick() {
 			if (CraftingInventory.Instance == null || Inventory.Instance == null)
-				Debug.LogError("CraftingInventory Instance is null, this is GAME BREAKING");
-			else {
-				if (!CraftingInventory.Instance.gameObject.activeSelf) {
-					CraftingInventory.Instance.Show();
-					Hotbar.Instance.Hide();
-					KillAnimation.SetMovement(PlayerControl.LocalPlayer, false);
-				}
-				else {
-					CraftingInventory.Instance.Hide();
-					Hotbar.Instance.Show();
-					KillAnimation.SetMovement(PlayerControl.LocalPlayer,true);
-				}
+				ErrorCodeGenerator.PrintErrorMessage();
+			else
+			{
+				CraftingInventory.Instance.SetActive(!CraftingInventory.Instance.gameObject.activeSelf);
+
+				// if (!CraftingInventory.Instance.gameObject.activeSelf)
+				// {
+				// 	CraftingInventory.Instance.Show();
+				// 	Hotbar.Instance.Hide();
+				// 	KillAnimation.SetMovement(PlayerControl.LocalPlayer, false);
+				// }
+				// else
+				// {
+				// 	CraftingInventory.Instance.Hide();
+				// 	Hotbar.Instance.Show();
+				// 	KillAnimation.SetMovement(PlayerControl.LocalPlayer, true);
+				// }
 			}
 		}
 

@@ -33,23 +33,34 @@ namespace bananplaysshu {
 			gameObject.SetActive(false);
 		}
 
-		public void Show() {
+		public delegate void FunctionToExecute();
+
+		public void SetActive(bool active)
+		{
+			FunctionToExecute = active == true ? Show : Hide;
+			FunctionToExecute();
+		} 
+
+		private void Show()
+		{
 			gameObject.SetActive(true);
-			if (PlayerControl.LocalPlayer.TryGetComponent<InventorySystem>(out InventorySystem inventorySystem)) {
+			if (PlayerControl.LocalPlayer.TryGetComponent<InventorySystem>(out InventorySystem inventorySystem))
+			{
 				inventorySystem.inv.SetActive(true);
-				if (!initialized) {
-					initialized= true;
+				if (!initialized)
+				{
+					initialized = true;
 
 					GetComponent<SpriteRenderer>().sortingOrder = 1;
 					transform.position = InventorySystem.Instance.inv.transform.position;
 					transform.position += new Vector3(0, 2.2f, 20);
 				}
-				
+
 			}
 
 		}
 
-		public void Hide() {
+		private void Hide() {
 			gameObject.SetActive(false);
 			if (PlayerControl.LocalPlayer.TryGetComponent<InventorySystem>(out InventorySystem inventorySystem)) {
 				inventorySystem.inv.SetActive(false);

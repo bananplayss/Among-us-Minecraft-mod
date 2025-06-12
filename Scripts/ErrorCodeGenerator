@@ -1,0 +1,23 @@
+using System;
+
+namespace bananplaysshu
+{
+    public static class ErrorMessage
+    {
+        public static int errorCode = 100;
+
+        public static Dictionary<string, int> errorCodeDictionary = new Dictionary<string, int>();
+
+        public int NewErrorCode()
+        {
+            int generatedErrorCode = errorCode + 1;
+            return generatedErrorCode;
+
+        }
+
+        public string PrintErrorMessage()
+        {
+            string errorMessage = $"Something went wrong... Error code: {NewErrorCode()}";
+        }
+    }
+}
