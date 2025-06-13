@@ -1,0 +1,6 @@
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\bananplaysshu.csproj.AssemblyReference.cache
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\bananplaysshu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\bananplaysshu.AssemblyInfoInputs.cache
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\bananplaysshu.AssemblyInfo.cs
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\bananplaysshu.csproj.CoreCompileInputs.cache
+C:\Users\User\ThunderzLuckyPlugin\ThunderzLuckyPlugin\obj\Debug\net6.0\bananplaysshu.sourcelink.json
