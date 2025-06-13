@@ -1,10 +1,6 @@
 ﻿using bananplaysshu.Tools;
 using HarmonyLib;
-using MiraAPI.Utilities.Assets;
 using UnityEngine;
-using static Il2CppSystem.Xml.XmlWellFormedWriter.AttributeValueCache;
-
-//THIS SHITTY CLASS IS PROHIBITED TO LOOK AT, I'M SERIOUS, DON'T EXHAUST YOURSELF PLEASE
 
 
 namespace bananplaysshu {
@@ -12,33 +8,14 @@ namespace bananplaysshu {
 	internal static class InitializeTree {
 		#region Fields
 
-		//refactor
-		//IF YOU'RE LOOKING AT THIS.... I ADDED IT AFTER I DELIVERED THE PROJECT SO I DIDNT CARE MAKING A METHOD
-		public static Vector2 treePos = new Vector2(2.7f, -8.5f);
-		public static Vector2 treePos2 = new Vector2(2.2f, 0.7f);
-		public static Vector2 treePos3 = new Vector2(-3.8f, 0.7f);
-		public static Vector2 treePos4 = new Vector2(-21.2f, -3.7f);
-		public static Vector2 treePos5 = new Vector2(.3f, -14f);
-		public static Vector2 treePos6 = new Vector2(5.2f, -14.5f);
-		public static Vector2 treePos7 = new Vector2(-8.5f, -2.4f);
+		private static Vector3[] treePosArray = new Vector3[] {new Vector2(2.7f, -8.5f), new Vector2(2.2f, 0.7f),
+		new Vector2(-3.8f, 0.7f), new Vector2(-21.2f, -3.7f), new Vector2(.3f, -14f), new Vector2(5.2f, -14.5f), new Vector2(-8.5f, -2.4f)};
 
 
-		public static Transform tree;
-		public static Transform tree2;
-		public static Transform tree3;
-		public static Transform tree4;
-		public static Transform tree5;
-		public static Transform tree6;
-		public static Transform tree7;
+		public static Transform tree, tree2, tree3, tree4, tree5, tree6, tree7;
 
-		public static SpriteRenderer treeRenderer;
-		public static SpriteRenderer treeRenderer2;
-		public static SpriteRenderer treeRenderer3;
-		public static SpriteRenderer treeRenderer4;
-		public static SpriteRenderer treeRenderer5;
-		public static SpriteRenderer treeRenderer6;
-		public static SpriteRenderer treeRenderer7;
-
+		public static SpriteRenderer treeRenderer, treeRenderer2, treeRenderer3, treeRenderer4,
+		treeRenderer5, treeRenderer6, treeRenderer7;
 		#endregion
 
 

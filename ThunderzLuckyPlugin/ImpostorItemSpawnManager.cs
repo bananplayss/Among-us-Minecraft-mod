@@ -3,10 +3,6 @@ using Il2CppInterop.Runtime.Attributes;
 using Reactor.Utilities.Attributes;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace bananplaysshu {
@@ -23,7 +19,7 @@ namespace bananplaysshu {
 		public InventoryItem[] impostorItemInventoryItems;
 		public Vector3[] impostorItemInventoryItemsSpawns;
 
-		private float spawnRandomImpostorItemTimer = 50;
+		private float spawnRandomImpostorItemTimer = 50f;
 		private float spawnRandomImpostorItemTimerMax = 50f;
 
 
@@ -34,40 +30,21 @@ namespace bananplaysshu {
 			impostorItemInventoryItems = new InventoryItem[10];
 			impostorItemInventoryItemsSpawns = new Vector3[10];
 
-			//refactor
-			#region Bad code, no time left 
-			#region are you sure?
-			#region please dont
-			#region nooooooo
-			#region alright
-			#region :c
-			impostorItemInventoryItems[0] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Spyglass);
-			impostorItemInventoryItems[1] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Spyglass);
-			impostorItemInventoryItems[2] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Gunpowder);
-			impostorItemInventoryItems[3] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Gunpowder);
-			impostorItemInventoryItems[4] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Trident);
-			impostorItemInventoryItems[5] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Trident);
-			impostorItemInventoryItems[6] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Sand);
-			impostorItemInventoryItems[7] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Sand);
-			impostorItemInventoryItems[8] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Gunpowder);
-			impostorItemInventoryItems[9] = InventoryItemDatabase.Instance.ReturnItemByEnumName(InventoryItemDatabase.InventoryItemsEnum.Gunpowder);
+			#region ImpostorItem data
+			string[] impostorItemNames = new string[] {"Spyglass", "Spyglass", "Gunpowder", "Gunpowder",
+				"Trident", "Trident", "Sand", "Sand", "Gunpowder", "Gunpowder"};
+			Vector3[] impostorItemPositions = new Vector3[] {
+				new Vector3(-0.8f, -8.0f), new Vector3(10.5f, -6.3f), new Vector3(8.3f, 2.3f), new Vector3(-19.9f, -6.6f),
+					new Vector3(-6.6f, -8.4f), new Vector3(-16.1f, 2.4f), new Vector3(2.2f, -15.1f), new Vector3(-12.6f, -3.1f),
+					new Vector3(-17.4f, -13.4f), new Vector3(0.5f, -9.5f, 0.0f)};
+			#endregion
 
-			impostorItemInventoryItemsSpawns[0] = new Vector3(-0.8f, -8.0f);
-			impostorItemInventoryItemsSpawns[1] = new Vector3(10.5f, -6.3f);
-			impostorItemInventoryItemsSpawns[2] = new Vector3(8.3f, 2.3f);
-			impostorItemInventoryItemsSpawns[3] = new Vector3(-19.9f, -6.6f);
-			impostorItemInventoryItemsSpawns[4] = new Vector3(-6.6f, -8.4f);
-			impostorItemInventoryItemsSpawns[5] = new Vector3(-16.1f, 2.4f);
-			impostorItemInventoryItemsSpawns[6] = new Vector3(2.2f, -15.1f);
-			impostorItemInventoryItemsSpawns[7] = new Vector3(-12.6f, -3.1f);
-			impostorItemInventoryItemsSpawns[8] = new Vector3(-17.4f, -13.4f);
-			impostorItemInventoryItemsSpawns[9] = new Vector3(0.5f, -9.5f, 0.0f);
-			#endregion
-			#endregion
-			#endregion
-			#endregion
-			#endregion
-			#endregion
+			for (int i = 0; i < impostorItemInventoryItems.Length; i++) {
+				InventoryItemDatabase.InventoryItemsEnum itemsEnum = (InventoryItemDatabase.InventoryItemsEnum)Enum.Parse(typeof(InventoryItemDatabase.InventoryItemsEnum),
+				impostorItemNames[i]);
+
+				impostorItemInventoryItemsSpawns[i] = impostorItemPositions[i];
+			}
 
 		}
 

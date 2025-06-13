@@ -1,10 +1,7 @@
 ﻿using bananplaysshu.Tools;
 using MiraAPI.Hud;
 using MiraAPI.Utilities.Assets;
-using System;
-using TMPro;
 using UnityEngine;
-using static bananplaysshu.ThunderzLuckyPlugin;
 
 namespace bananplaysshu.Buttons {
 
