@@ -89,6 +89,9 @@
       <Reference Include="MiraAPI">
         <HintPath>..\..\Downloads\Among Us modding\BepInEx\plugins\MiraAPI.dll</HintPath>
       </Reference>
+      <Reference Include="MiraAPI">
+        <HintPath>..\..\Dependencies/MiraAPI.dll</HintPath>
+      </Reference>
       <Reference Include="Mono.Cecil">
         <HintPath>..\..\Downloads\Among Us modding\BepInEx\core\Mono.Cecil.dll</HintPath>
       </Reference>

@@ -62,7 +62,8 @@ namespace bananplaysshu {
 		private void SpawnAllMobs() {
 			LateTask.New(() => {
 
-				for (int i = 0; i < 3 + 1; i++) {
+				for (int i = 0; i < 3 + 1; i++)
+				{
 					if (i == endermanIndex) InitializeEnderman();
 					if (i == blazeIndex) InitializeBlazes();
 					if (i == enddragonIndex) InitializeEndDragon();
